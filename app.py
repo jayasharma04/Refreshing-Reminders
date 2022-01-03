@@ -47,6 +47,5 @@ def send_vitamin_reminder(client, recipient_number, recipient_name):
         print(repr(e))
 
 
-threading.Timer(1.0, send_water_reminder, args=[client, '+16476431844', 'Jaya']).start()
-threading.Timer(1.0, send_vitamin_reminder, args=[client, '+16476431844', 'Jaya']).start()
-
+threading.Timer(1.0, send_water_reminder, args=[client, '+1##########', 'Jaya']).start()
+threading.Timer(1.0, send_vitamin_reminder, args=[client, '+1##########', 'Jaya']).start()
