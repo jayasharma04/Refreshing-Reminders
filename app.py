@@ -14,8 +14,8 @@ def send_water_reminder(client, recipient_number, recipient_name):
 
     try:
         message = client.messages.create(
-            body=water_reminder,
-            from_='+19282720782',  # This is the Twilio Sandbox number. Don't change it.
+            body = water_reminder,
+            from_= '+19282720782',  # This is the Twilio Sandbox number. Don't change it.
             to=recipient_number
         )
 
@@ -33,8 +33,8 @@ def send_vitamin_reminder(client, recipient_number, recipient_name):
 
     try:
         message = client.messages.create(
-            body=vitamin_reminder,
-            from_='+19282720782',  # This is the Twilio Sandbox number. Don't change it.
+            body = vitamin_reminder,
+            from_= '+19282720782',  # This is the Twilio Sandbox number. Don't change it.
             to=recipient_number
         )
 
